@@ -1,0 +1,74 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.social-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-top: 30px;
+}
+.footer-head {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+/* .social-icon { */
+/* font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #0ef;
+  margin: 24px; */
+/* display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #0ef;
+  font-size: 40px;
+  background: transparent;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 30px 15px 30px 0;
+  text-decoration: none;
+  color: #0ef;
+  line-height: 21px;
+} */
+.social-list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #0ef;
+  font-size: 20px;
+  background: transparent;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 30px 15px 30px 0;
+  text-decoration: none;
+  color: #0ef;
+  transition: 0.5s ease;
+}
+
+.social-list li :hover {
+  background: #0ef;
+  color: #1f242d;
+  box-shadow: 0 0 20px #0ef;
+}
+
+.social-list :hover {
+  background: #0ef;
+  color: #1f242d;
+  box-shadow: 0 0 20px #0ef;
+}
